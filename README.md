@@ -1,1 +1,1 @@
-see `lib/ractor_mgmr.rb`
+see `lib/ractor_mgr.rb`
