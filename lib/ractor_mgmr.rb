@@ -122,7 +122,7 @@ class RactorMgmr
 
   # percentage complete as a Float in the range of 0.0..1.0
   def percent_complete_f(digits=0)
-    ((jobs_finished / jobs_total.to_f) * 100)
+    (jobs_finished / jobs_total.to_f)
   end
 
   # percentage complete (a floating point number between 0.0..100.0)
